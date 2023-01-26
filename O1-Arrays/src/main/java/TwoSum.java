@@ -5,7 +5,6 @@ import java.util.Map;
 public class TwoSum {
     public static void main(String[] args) {
         int[] myarray={2,7,9,11};
-
         System.out.println(Arrays.toString(twoSum1(myarray,9)));
         System.out.println("Optimal Solution .....");
         System.out.println(Arrays.toString(twoSum2(myarray,9)));
